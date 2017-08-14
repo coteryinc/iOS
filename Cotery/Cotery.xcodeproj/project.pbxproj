@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C47713F1F15AF3200835D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C47713E1F15AF3200835D7F /* AppDelegate.swift */; };
+		3C4771411F15AF3200835D7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4771401F15AF3200835D7F /* LoginViewController.swift */; };
+		3C4771441F15AF3200835D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4771421F15AF3200835D7F /* Main.storyboard */; };
+		3C4771461F15AF3200835D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4771451F15AF3200835D7F /* Assets.xcassets */; };
+		3C4771491F15AF3200835D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4771471F15AF3200835D7F /* LaunchScreen.storyboard */; };
+		3C4771521F15B12E00835D7F /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4771501F15B12E00835D7F /* AccountKit.framework */; };
+		3C4771531F15B12E00835D7F /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C4771511F15B12E00835D7F /* AccountKitStrings.bundle */; };
+		3C4771551F15BA0E00835D7F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4771541F15BA0E00835D7F /* AccountViewController.swift */; };
+		3C5544CB1F2993770076E43C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5544CA1F2993770076E43C /* FBSDKLoginKit.framework */; };
+		3C763A191F15EF0A00486792 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C763A171F15EF0A00486792 /* Bolts.framework */; };
+		3C763A1A1F15EF0A00486792 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C763A181F15EF0A00486792 /* FBSDKCoreKit.framework */; };
+		3CAF95391F3C2936004B0E5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF95381F3C2935004B0E5D /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C47713B1F15AF3200835D7F /* Cotery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cotery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C47713E1F15AF3200835D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4771401F15AF3200835D7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C4771431F15AF3200835D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4771451F15AF3200835D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4771481F15AF3200835D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C47714A1F15AF3200835D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4771501F15B12E00835D7F /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		3C4771511F15B12E00835D7F /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		3C4771541F15BA0E00835D7F /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		3C5544CA1F2993770076E43C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3C763A171F15EF0A00486792 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3C763A181F15EF0A00486792 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3CAF95381F3C2935004B0E5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4771381F15AF3200835D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4771521F15B12E00835D7F /* AccountKit.framework in Frameworks */,
+				3C763A1A1F15EF0A00486792 /* FBSDKCoreKit.framework in Frameworks */,
+				3CAF95391F3C2936004B0E5D /* FBSDKShareKit.framework in Frameworks */,
+				3C5544CB1F2993770076E43C /* FBSDKLoginKit.framework in Frameworks */,
+				3C763A191F15EF0A00486792 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4771321F15AF3200835D7F = {
+			isa = PBXGroup;
+			children = (
+				3C47713D1F15AF3200835D7F /* Cotery */,
+				3C47713C1F15AF3200835D7F /* Products */,
+				3C5544C71F298E0F0076E43C /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		3C47713C1F15AF3200835D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C47713B1F15AF3200835D7F /* Cotery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C47713D1F15AF3200835D7F /* Cotery */ = {
+			isa = PBXGroup;
+			children = (
+				3C47713E1F15AF3200835D7F /* AppDelegate.swift */,
+				3C5544CC1F29CC0F0076E43C /* Controller */,
+				3C763A1F1F15F63D00486792 /* Interface */,
+				3C763A211F15F65F00486792 /* Resources */,
+			);
+			path = Cotery;
+			sourceTree = "<group>";
+		};
+		3C5544C71F298E0F0076E43C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF95381F3C2935004B0E5D /* FBSDKShareKit.framework */,
+				3C763A181F15EF0A00486792 /* FBSDKCoreKit.framework */,
+				3C5544CA1F2993770076E43C /* FBSDKLoginKit.framework */,
+				3C763A171F15EF0A00486792 /* Bolts.framework */,
+				3C4771501F15B12E00835D7F /* AccountKit.framework */,
+				3C4771511F15B12E00835D7F /* AccountKitStrings.bundle */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		3C5544CC1F29CC0F0076E43C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C4771401F15AF3200835D7F /* LoginViewController.swift */,
+				3C4771541F15BA0E00835D7F /* AccountViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3C763A1F1F15F63D00486792 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3C4771471F15AF3200835D7F /* LaunchScreen.storyboard */,
+				3C4771421F15AF3200835D7F /* Main.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		3C763A211F15F65F00486792 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C4771451F15AF3200835D7F /* Assets.xcassets */,
+				3C47714A1F15AF3200835D7F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C47713A1F15AF3200835D7F /* Cotery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C47714D1F15AF3200835D7F /* Build configuration list for PBXNativeTarget "Cotery" */;
+			buildPhases = (
+				3C4771371F15AF3200835D7F /* Sources */,
+				3C4771381F15AF3200835D7F /* Frameworks */,
+				3C4771391F15AF3200835D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cotery;
+			productName = Cotery;
+			productReference = 3C47713B1F15AF3200835D7F /* Cotery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4771331F15AF3200835D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cotery;
+				TargetAttributes = {
+					3C47713A1F15AF3200835D7F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KFNAAK48FE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C4771361F15AF3200835D7F /* Build configuration list for PBXProject "Cotery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4771321F15AF3200835D7F;
+			productRefGroup = 3C47713C1F15AF3200835D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C47713A1F15AF3200835D7F /* Cotery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4771391F15AF3200835D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4771491F15AF3200835D7F /* LaunchScreen.storyboard in Resources */,
+				3C4771461F15AF3200835D7F /* Assets.xcassets in Resources */,
+				3C4771441F15AF3200835D7F /* Main.storyboard in Resources */,
+				3C4771531F15B12E00835D7F /* AccountKitStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4771371F15AF3200835D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4771411F15AF3200835D7F /* LoginViewController.swift in Sources */,
+				3C47713F1F15AF3200835D7F /* AppDelegate.swift in Sources */,
+				3C4771551F15BA0E00835D7F /* AccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4771421F15AF3200835D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4771431F15AF3200835D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4771471F15AF3200835D7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4771481F15AF3200835D7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C47714B1F15AF3200835D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C47714C1F15AF3200835D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C47714E1F15AF3200835D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFNAAK48FE;
+				FRAMEWORK_SEARCH_PATHS = "~/Developer/Cotery/MVP/iOS/FacebookSDKs-iOS-4.24.0";
+				INFOPLIST_FILE = Cotery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotery.Cotery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C47714F1F15AF3200835D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFNAAK48FE;
+				FRAMEWORK_SEARCH_PATHS = "~/Developer/Cotery/MVP/iOS/FacebookSDKs-iOS-4.24.0";
+				INFOPLIST_FILE = Cotery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotery.Cotery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4771361F15AF3200835D7F /* Build configuration list for PBXProject "Cotery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C47714B1F15AF3200835D7F /* Debug */,
+				3C47714C1F15AF3200835D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C47714D1F15AF3200835D7F /* Build configuration list for PBXNativeTarget "Cotery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C47714E1F15AF3200835D7F /* Debug */,
+				3C47714F1F15AF3200835D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4771331F15AF3200835D7F /* Project object */;
+}
