@@ -23,6 +23,7 @@ final class LoginViewController: UIViewController {
 //    // MARK: Outlets
 //    
 //    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var signupButton: UIButton!
     
     // MARK: View Life Cycle
     

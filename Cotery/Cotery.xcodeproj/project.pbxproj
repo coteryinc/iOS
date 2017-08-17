@@ -19,6 +19,7 @@
 		3C763A191F15EF0A00486792 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C763A171F15EF0A00486792 /* Bolts.framework */; };
 		3C763A1A1F15EF0A00486792 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C763A181F15EF0A00486792 /* FBSDKCoreKit.framework */; };
 		3CAF95391F3C2936004B0E5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF95381F3C2935004B0E5D /* FBSDKShareKit.framework */; };
+		3CD993011F458ACD00C9AF6D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD993001F458ACD00C9AF6D /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3C763A171F15EF0A00486792 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		3C763A181F15EF0A00486792 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3CAF95381F3C2935004B0E5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		3CD993001F458ACD00C9AF6D /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				3C4771401F15AF3200835D7F /* LoginViewController.swift */,
 				3C4771541F15BA0E00835D7F /* AccountViewController.swift */,
+				3CD993001F458ACD00C9AF6D /* SignupViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				3C4771411F15AF3200835D7F /* LoginViewController.swift in Sources */,
 				3C47713F1F15AF3200835D7F /* AppDelegate.swift in Sources */,
+				3CD993011F458ACD00C9AF6D /* SignupViewController.swift in Sources */,
 				3C4771551F15BA0E00835D7F /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
